@@ -801,9 +801,14 @@
   var EMAILJS_PUBLIC_KEY  = 'CpD1CVIrVYjeyaINU';
   var EMAILJS_SERVICE_ID  = 'service_vzo0kq4';
   var EMAILJS_TEMPLATE_ID = 'template_bjb6nb6';
+  /* Optional second template: an auto-reply sent back to the visitor.
+     Fill this in once you've created the auto-reply template in EmailJS.
+     Leave as-is to skip it; the notification email above still works fine alone. */
+  var EMAILJS_AUTOREPLY_TEMPLATE_ID = 'YOUR_AUTOREPLY_TEMPLATE_ID';
   var emailjsReady = EMAILJS_PUBLIC_KEY.indexOf('YOUR_') !== 0 &&
                       EMAILJS_SERVICE_ID.indexOf('YOUR_') !== 0 &&
                       EMAILJS_TEMPLATE_ID.indexOf('YOUR_') !== 0;
+  var autoreplyReady = emailjsReady && EMAILJS_AUTOREPLY_TEMPLATE_ID.indexOf('YOUR_') !== 0;
   if (emailjsReady && window.emailjs){
     emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
   }
@@ -937,6 +942,20 @@
           status.classList.add('is-visible');
         }
         var reEnable = function(){ if (submitBtn){ submitBtn.disabled = false; } };
+
+        /* Fire the auto-reply to the visitor. This runs independently of the
+           notification email below, so if it fails (e.g. not configured yet)
+           it never blocks or breaks the main "message sent" confirmation. */
+        if (autoreplyReady){
+          emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_AUTOREPLY_TEMPLATE_ID, {
+            from_name: name,
+            from_email: email,
+            message: message
+          }).catch(function(err){
+            console.warn('Auto-reply email failed to send:', err);
+          });
+        }
+
         emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
           from_name: name,
           from_email: email,
