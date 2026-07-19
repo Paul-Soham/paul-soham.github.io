@@ -1,794 +1,964 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>DevFolio - Developer Portfolio Template</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soham Paul — Software Developer | WordPress, Shopify &amp; API Specialist</title>
+<meta name="description" content="Soham Paul is a software developer based in West Bengal, India, specialising in WordPress, Shopify (Liquid), PHP and API integration. View experience, skills and get in touch.">
+<meta name="author" content="Soham Paul">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://paul-soham.github.io/">
+<link rel="icon" type="image/png" href="https://paul-soham.github.io/soham-paul.png">
 
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+<!-- Open Graph -->
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Soham Paul — Software Developer">
+<meta property="og:description" content="WordPress &amp; Shopify developer specialising in Liquid theming, PHP and API integration. Explore my work and get in touch.">
+<meta property="og:image" content="https://paul-soham.github.io/soham-paul.png">
+<meta property="og:url" content="https://paul-soham.github.io/">
 
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Soham Paul — Software Developer">
+<meta name="twitter:description" content="WordPress &amp; Shopify developer specialising in Liquid theming, PHP and API integration.">
+<meta name="twitter:image" content="https://paul-soham.github.io/soham-paul.png">
 
-        <!-- CSS Libraries -->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
-        <style type="text/css">
-body{color:#797979;background:#fff;font-family:'Montserrat',sans-serif}h1,h2,h3,h4,h5,h6{color:#414141}a{color:#313131;transition:.3s}a:hover,a:active,a:focus{color:#EF233C;outline:none;text-decoration:none}.btn:focus,.form-control:focus{box-shadow:none}.container-fluid{max-width:1366px}.btn{padding:12px 25px;font-size:14px;font-weight:600;letter-spacing:1px;color:#fff;background:#EF233C;border:2px solid #fff0;border-radius:0;box-shadow:inset 0 0 0 50px #EF233C;transition:ease-out 0.3s;-webkit-transition:ease-out 0.3s;-moz-transition:ease-out 0.3s}.btn:hover{color:#EF233C;background:#fff0;box-shadow:inset 0 0 0 0 #EF233C;border-color:#EF233C}#loader{position:fixed;top:0;right:0;bottom:0;left:0;display:flex;align-items:center;justify-content:center;background:#fff;opacity:0;visibility:hidden;-webkit-transition:opacity .3s ease-out,visibility 0s linear .3s;-o-transition:opacity .3s ease-out,visibility 0s linear .3s;transition:opacity .3s ease-out,visibility 0s linear .3s;z-index:999}#loader.show{-webkit-transition:opacity .6s ease-out,visibility 0s linear 0s;-o-transition:opacity .6s ease-out,visibility 0s linear 0s;transition:opacity .6s ease-out,visibility 0s linear 0s;visibility:visible;opacity:1}#loader .loader{position:relative;width:45px;height:45px;border:5px solid #ddd;border-top:5px solid #EF233C;border-radius:50%;-webkit-animation:spin 2s linear infinite;animation:spin 2s linear infinite}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg)}}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}.back-to-top{position:fixed;display:none;width:44px;height:44px;padding:8px 0;text-align:center;line-height:1;font-size:22px;right:15px;bottom:15px;z-index:9}.back-to-top i{color:#fff}.back-to-top:hover i{color:#414141}.navbar{position:relative;transition:.5s;z-index:999}.navbar.nav-sticky{position:fixed;top:0;width:100%;box-shadow:0 2px 5px rgb(0 0 0 / .3)}.navbar .navbar-brand{margin:0;font-size:45px;line-height:0;font-weight:700;letter-spacing:2px;transition:.5s}.navbar .navbar-brand img{max-width:100%;max-height:40px}.navbar .dropdown-menu{margin-top:0;border:0;border-radius:0;background:#f8f9fa}@media (min-width:992px){.navbar{position:absolute;width:100%;padding:30px 60px;background:transparent!important;border-bottom:1px dashed rgb(256 256 256 / .2);z-index:9}.navbar.nav-sticky{padding:10px 60px;background:#ffffff!important}.navbar .navbar-brand{color:#fff}.navbar.nav-sticky .navbar-brand{color:#EF233C}.navbar-light .navbar-nav .nav-link,.navbar-light .navbar-nav .nav-link:focus{padding:10px 10px 8px 10px;color:#fff;font-size:15px;font-weight:500}.navbar-light.nav-sticky .navbar-nav .nav-link,.navbar-light.nav-sticky .navbar-nav .nav-link:focus{color:#414141}.navbar-light .navbar-nav .nav-link:hover,.navbar-light .navbar-nav .nav-link.active{color:#111}.navbar-light.nav-sticky .navbar-nav .nav-link:hover,.navbar-light.nav-sticky .navbar-nav .nav-link.active{color:#EF233C}}@media (max-width:991.98px){.navbar{padding:15px;background:#ffffff!important}.navbar .navbar-brand{color:#EF233C}.navbar .navbar-nav{margin-top:15px}.navbar a.nav-link{padding:5px}.navbar .dropdown-menu{box-shadow:none}}.hero{position:relative;width:100%;margin-bottom:45px;padding:120px 0 0 0;overflow:hidden;background:linear-gradient(rgb(239 35 60 / .95),rgb(239 35 60 / .95)),url(../img/hero-bg.jpg);background-position:center;background-repeat:no-repeat;background-size:cover}.hero .container-fluid{padding:0}.hero .hero-image{position:relative;text-align:right;padding-right:75px}.hero .hero-image img{max-width:80%;max-height:80%}.hero .hero-content{position:relative;padding-left:75px;display:flex;align-items:flex-start;justify-content:center;flex-direction:column}.hero .hero-text p{color:#fff;font-size:25px;font-weight:600;margin-bottom:15px}.hero .hero-text h1{color:#fff;font-size:60px;font-weight:700;letter-spacing:3px;margin-bottom:15px}.hero .hero-text h2{display:inline-block;margin:0;height:35px;color:#fff;font-size:35px;font-weight:600}.hero .hero-text .typed-text{display:none}.hero .hero-text .typed-cursor{font-size:35px;font-weight:300;color:#fff}.hero .hero-btn .btn{margin-top:35px;color:#EF233C;background:#fff;box-shadow:inset 0 0 0 50px #fff}.hero .hero-btn .btn:hover{color:#fff;background:#fff0;box-shadow:inset 0 0 0 0 #fff;border-color:#fff}.hero .hero-btn .btn:first-child{margin-right:10px}@media (max-width:991.98px){.hero{padding-top:60px}.hero .hero-content{padding:0 15px}.hero .hero-text p{font-size:20px}.hero .hero-text h1{font-size:45px}.hero .hero-text h2{font-size:25px;height:25px}.hero .hero-btn .btn{padding:12px 30px;letter-spacing:1px}}@media (max-width:767.98px){.hero{padding-top:60px;padding-bottom:60px}.hero,.hero .hero-text,.hero .hero-btn{width:100%;text-align:center}.hero .hero-text p{font-size:18px}.hero .hero-text h1{font-size:35px}.hero .hero-text h2{font-size:22px;height:22px}.hero .hero-btn .btn{padding:10px 15px;letter-spacing:1px}}@media (max-width:575.98px){.hero .hero-text p{font-size:16px}.hero .hero-text h1{font-size:30px}.hero .hero-text h2{font-size:18px;height:18px}.hero .hero-btn .btn{padding:8px 10px;letter-spacing:0}}.section-header{position:relative;margin-bottom:45px}.section-header p{display:inline-block;margin:0 30px;margin-bottom:10px;padding-left:15px;position:relative;font-size:16px;font-weight:600;letter-spacing:1px;text-transform:uppercase;background:#fff}.section-header p::before{position:absolute;content:"";height:3px;top:11px;right:0;left:-30px;background:#EF233C;z-index:-1}.section-header p::after{position:absolute;content:"";width:3px;height:3px;top:11px;left:3px;background:#EF233C;z-index:1}.section-header h2{margin:0;position:relative;font-size:45px;font-weight:700}@media (max-width:767.98px){.section-header h2{font-size:30px}}.about{position:relative;width:100%;margin:-45px 0 45px 0}.about .col-lg-6{padding:0}.about .section-header{margin-bottom:30px}.about .about-img{position:relative;height:100%}.about .about-img img{position:relative;width:100%;height:100%;object-fit:cover}.about .about-content{padding:0 60px}.about .about-text p{font-size:16px}.about .skills{margin-bottom:30px}.about .skill-name{margin-top:15px}.about .skill-name p{display:inline-block;margin-bottom:5px;font-size:16px;font-weight:400}.about .skill-name p:last-child{float:right}.about .progress{height:10px;border-radius:10px;background:#ddd}.about .progress .progress-bar{width:0;background:#EF233C;border-radius:10px;transition:2s}.about .about-text a.btn{margin-top:15px}@media (max-width:991.98px){.about .about-content{padding:45px 15px 0 15px}}.experience{position:relative;padding:45px 0 15px 0}.experience .timeline{position:relative;width:100%}.experience .timeline::after{content:'';position:absolute;width:2px;background:#EF233C;top:0;bottom:0;left:50%;margin-left:-1px}.experience .timeline .timeline-item{position:relative;background:inherit;width:50%;margin-bottom:30px}.experience .timeline .timeline-item.left{left:0;padding-right:30px}.experience .timeline .timeline-item.right{left:50%;padding-left:30px}.experience .timeline .timeline-item::after{content:'';position:absolute;width:16px;height:16px;top:48px;right:-8px;background:#fff;border:2px solid #EF233C;border-radius:16px;z-index:1}.experience .timeline .timeline-item.right::after{left:-8px}.experience .timeline .timeline-item::before{content:'';position:absolute;width:0;height:0;top:46px;right:10px;z-index:1;border:10px solid;border-color:#fff0 #fff0 #fff0 #ddd}.experience .timeline .timeline-item.right::before{left:10px;border-color:#fff0 #ddd #fff0 #fff0}.experience .timeline .timeline-date{position:absolute;width:100%;top:44px;font-size:16px;font-weight:600;color:#EF233C;text-transform:uppercase;letter-spacing:1px;z-index:1}.experience .timeline .timeline-item.left .timeline-date{text-align:left;left:calc(100% + 55px)}.experience .timeline .timeline-item.right .timeline-date{text-align:right;right:calc(100% + 55px)}.experience .timeline .timeline-text{padding:30px;background:#fff;position:relative;border-right:5px solid #ddd;box-shadow:0 0 60px rgb(0 0 0 / .08)}.experience .timeline .timeline-item.right .timeline-text{border-right:none;border-left:5px solid #ddd}.experience .timeline .timeline-text h2{margin:0 0 5px 0;font-size:22px;font-weight:600}.experience .timeline .timeline-text h4{margin:0 0 10px 0;font-size:16px;font-style:italic;font-weight:400}.experience .timeline .timeline-text p{margin:0;font-size:16px}@media (max-width:767.98px){.experience .timeline::after{left:8px}.experience .timeline .timeline-item{width:100%;padding-left:38px}.experience .timeline .timeline-item.left{padding-right:0}.experience .timeline .timeline-item.right{left:0%;padding-left:38px}.experience .timeline .timeline-item.left::after,.experience .timeline .timeline-item.right::after{left:0}.experience .timeline .timeline-item.left::before,.experience .timeline .timeline-item.right::before{left:18px;border-color:#fff0 #ddd #fff0 #fff0}.experience .timeline .timeline-item.left .timeline-date,.experience .timeline .timeline-item.right .timeline-date{position:relative;top:0;right:auto;left:0;text-align:left;margin-bottom:10px}.experience .timeline .timeline-item.left .timeline-text,.experience .timeline .timeline-item.right .timeline-text{border-right:none;border-left:5px solid #ddd}}.service{position:relative;width:100%;padding:45px 0 15px 0}.service .service-item{position:relative;margin-bottom:30px;display:flex;align-items:center;box-shadow:inset 0 0 0 0 #fff0;transition:ease-out 0.5s}.service .service-item:hover{box-shadow:inset 800px 0 0 0 #EF233C}.service .service-icon{position:relative;width:150px;min-height:150px;display:flex;align-items:center;justify-content:center;border:1px solid #EF233C;background:#fff}.service .service-icon i{position:relative;font-size:60px;color:#EF233C;transition:.3s}.service .service-item:hover i{font-size:75px}.service .service-text{position:relative;width:calc(100% - 120px);padding:0 30px}.service .service-text h3{margin-bottom:10px;font-size:20px;font-weight:600;transition:1s}.service .service-text p{margin:0;font-size:16px;transition:1s}.service .service-item:hover .service-text h3,.service .service-item:hover .service-text p{color:#fff}@media (max-width:575.98px){.service .service-text h3{font-size:16px;margin-bottom:5px}.service .service-text p{font-size:14px}}.portfolio{position:relative;padding:45px 0 15px 0}.portfolio #portfolio-filter{padding:0;margin:-15px 0 25px 0;list-style:none;font-size:0;text-align:center}.portfolio #portfolio-filter li{cursor:pointer;display:inline-block;margin:5px;padding:6px 12px;font-size:14px;font-weight:600;color:#fff;background:#EF233C;border:2px solid #fff0;border-radius:0;box-shadow:inset 0 0 0 50px #EF233C;transition:ease-out 0.3s;-webkit-transition:ease-out 0.3s;-moz-transition:ease-out 0.3s}.portfolio #portfolio-filter li:hover,.portfolio #portfolio-filter li.filter-active{color:#EF233C;background:#fff0;box-shadow:inset 0 0 0 0 #EF233C;border-color:#EF233C}.portfolio .portfolio-item{position:relative}.portfolio .portfolio-wrap{position:relative;width:100%}.portfolio .portfolio-img{position:relative;overflow:hidden}.portfolio .portfolio-img img{position:relative;width:100%;height:100%;object-fit:cover;transform:scale(1.1);transition:.5s}.portfolio .portfolio-item:hover img{margin-left:15px}.portfolio .portfolio-text{position:relative;height:60px;width:calc(100% - 30px);margin:-30px 15px 30px 15px;display:flex;align-items:center;background:#fff;box-shadow:0 0 15px rgb(0 0 0 / .12)}.portfolio .portfolio-text h3{width:calc(100% - 70px);font-size:18px;font-weight:600;margin:0 0 0 15px;white-space:nowrap;overflow:hidden}.portfolio .portfolio-text a.btn{width:50px;height:50px;padding:0 0 2px 1px;display:flex;align-items:center;justify-content:center;font-size:45px;font-weight:100}.portfolio .portfolio-item:hover a.btn{color:#EF233C;background:#fff0;box-shadow:inset 0 0 0 0 #EF233C;border-color:#EF233C}.banner{position:relative;width:100%;margin:45px 0;padding:90px 0;background:#EF233C}.banner .container{max-width:750px;text-align:center}.banner .section-header{margin-bottom:20px}.banner .section-header p{color:#414141;background:#fff0}.banner .section-header p::after{display:none}.banner .section-header h2{color:#fff}.banner .section-header h2 span{color:#414141;font-size:50px}.banner .banner-text p{font-size:18px;color:#fff}.banner .banner-text .btn{margin-top:15px;color:#EF233C;background:#fff;box-shadow:inset 0 0 0 50px #fff}.banner .banner-text .btn:hover{color:#fff;background:#fff0;box-shadow:inset 0 0 0 0 #fff;border-color:#fff}.price{position:relative;width:100%;padding:45px 0 15px 0}.price .row{padding:0 15px}.price .col-md-4{padding:0}.price .price-item{position:relative;margin-bottom:30px;background:#fff}.price .featured-item{box-shadow:0 0 30px rgb(0 0 0 / .2);z-index:1}.price .price-header,.price .price-body,.price .price-footer{position:relative;text-align:center}.price .price-header{padding:45px 0 30px 0;color:#414141}.price .price-item.featured-item .price-header{color:#EF233C}.price .price-title h2{font-size:25px;font-weight:400;text-transform:uppercase}.price .price-prices h2{font-size:45px;font-weight:700;margin-left:10px}.price .price-prices h2 small{position:absolute;font-size:18px;font-weight:400;margin-top:9px;margin-left:-12px}.price .price-prices h2 span{margin-left:1px;font-size:18px;font-weight:400}.price .price-item.featured-item h2{color:#EF233C}.price .price-body{padding:0 0 20px 0}.price .price-description ul{margin:0;padding:0;list-style:none}.price .price-description ul li{padding:0 0 20px 0}.price .price-item .price-action{padding-bottom:45px}.price .price-item .price-action .btn{color:#fff;background:#414141;box-shadow:inset 0 0 0 50px #414141}.price .price-item .price-action .btn:hover{color:#414141;background:#fff0;box-shadow:inset 0 0 0 0 #414141;border-color:#414141}.price .price-item.featured-item .price-action .btn{color:#fff;background:#EF233C;box-shadow:inset 0 0 0 50px #EF233C}.price .price-item.featured-item .price-action .btn:hover{color:#EF233C;background:#fff0;box-shadow:inset 0 0 0 0 #EF233C;border-color:#EF233C}.team{position:relative;width:100%;padding:45px 0 15px 0}.team .team-item{position:relative;background:#fff;margin-bottom:30px;display:flex;align-items:center;justify-content:flex-start;box-shadow:inset 0 0 0 0 #fff0;transition:ease-out 0.5s}.team .team-img{position:relative;width:50%;overflow:hidden}.team .team-img img{position:relative;width:100%;transition:.5s}.team .team-text{position:relative;width:50%;padding:0 30px}.team .team-text h2{color:#EF233C;font-size:18px;font-weight:600;margin-bottom:5px;transition:1s}.team .team-text h4{font-size:14px;font-weight:600;margin-bottom:15px;transition:1s}.team .team-text p{margin-bottom:20px;transition:1s}.team .team-social{position:relative;display:flex;align-items:center;justify-content:flex-start}.team .team-social a.btn{width:35px;height:35px;padding:0;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:400;margin-right:5px}.team .team-item:hover{box-shadow:inset 800px 0 0 0 #EF233C}.team .team-item:hover .team-img img{transform:scale(1.2)}.team .team-item:hover .team-text h2,.team .team-item:hover .team-text h4,.team .team-item:hover .team-text p{color:#fff}.team .team-item:hover .team-social a.btn{background:#fff}.team .team-item:hover .team-social a.btn:hover{border-color:#fff}@media(max-width:575.98px){.team .team-text{padding:0 15px}.team .team-text h2{font-size:16px;margin-bottom:0}.team .team-text h4{margin-bottom:5px}.team .team-text p{font-size:14px;line-height:18px;margin-bottom:10px}}.testimonial{position:relative;margin:45px 0;padding:90px 0;background:#EF233C}.testimonial .container{max-width:900px}.testimonial .testimonial-icon{margin-bottom:45px;text-align:center}.testimonial .testimonial-icon i{font-size:60px;color:rgb(256 256 256 / .5)}.testimonial .testimonial-item{position:relative;margin:0 15px;text-align:center}.testimonial .testimonial-img{position:relative;margin-bottom:15px;z-index:1}.testimonial .testimonial-item img{margin:0 auto;width:120px;padding:10px;border:5px dotted #fff;border-radius:100px}.testimonial .testimonial-text{position:relative;margin-top:-70px;padding:65px 35px 30px 35px;text-align:center;background:#fff;border-radius:500px}.testimonial .testimonial-item p{font-size:18px;font-style:italic}.testimonial .testimonial-text h3{color:#EF233C;font-size:18px;font-weight:600;margin-bottom:10px}.testimonial .testimonial-text h4{color:#666;font-size:14px;margin-bottom:0}.testimonial .owl-dots{margin-top:15px;text-align:center}.testimonial .owl-dot{display:inline-block;margin:0 5px;width:12px;height:12px;border-radius:50%;background:rgb(256 256 256 / .5)}.testimonial .owl-dot.active{background:#fff}.contact{position:relative;width:100%;margin:45px 0;background:#EF233C}.contact .container-fluid{background:url(../img/contact.jpg) left center no-repeat;background-size:contain}.contact .contact-form{position:relative;padding:90px 0 90px 45px;background:#EF233C}.contact .contact-form input{color:#fff;padding:15px 0;background:none;border-radius:0;border:none;border-bottom:1px solid rgb(256 256 256 / .5)}.contact .contact-form textarea{color:#fff;height:90px;padding:15px 0;background:none;border-radius:0;border:none;border-bottom:1px solid rgb(256 256 256 / .5)}.contact .contact-form .form-control::placeholder{color:#fff;opacity:1}.contact .contact-form .form-control:-ms-input-placeholder,.contact .contact-form .form-control::-ms-input-placeholder{color:#fff}.contact .contact-form .btn{margin-top:35px;color:#EF233C;background:#fff;box-shadow:inset 0 0 0 50px #fff}.contact .contact-form .btn:hover{color:#fff;background:#fff0;box-shadow:inset 0 0 0 0 #fff;border-color:#fff}.contact .help-block ul{margin:0;padding:0;list-style-type:none;font-size:14px;font-style:italic;color:#fff}@media (max-width:767.98px){.contact .container-fluid{background:none}.contact .contact-form{padding:90px 0}}.blog{position:relative;width:100%;padding:45px 0 15px 0}.blog .blog-item{position:relative;margin-bottom:30px}.blog .blog-img{position:relative;width:100%;overflow:hidden}.blog .blog-img img{width:100%;transition:.5s}.blog .blog-item:hover img{transform:scale(1.1)}.blog .blog-text{position:relative;padding:30px;border-right:1px solid rgb(0 0 0 / .07);border-bottom:1px solid rgb(0 0 0 / .07);border-left:1px solid rgb(0 0 0 / .07)}.blog .blog-text h2{font-size:25px;font-weight:600}.blog .blog-text p{margin-bottom:10px}.blog .blog-item a.btn{margin-top:10px;padding:8px 15px}.blog .blog-item a.btn i{margin-left:5px}.blog .blog-meta{position:relative;display:flex;margin-bottom:15px}.blog .blog-meta p{margin:0 10px 0 0;font-size:13px}.blog .blog-meta i{color:#414141;margin-right:5px}.blog .blog-meta p:last-child{margin:0}.footer{position:relative;margin-top:45px;background:#EF233C}.footer .container-fluid{padding:60px 0 0 0}.footer .footer-info{position:relative;width:100%;text-align:center}.footer .footer-info h2{margin-bottom:20px;font-size:30px;font-weight:700;color:#fff}.footer .footer-info h3{margin-bottom:25px;font-size:22px;font-weight:600;color:#fff}.footer .footer-menu{width:100%;display:flex;justify-content:center}.footer .footer-menu p{color:#fff;font-size:22px;font-weight:600;line-height:20px;padding:0 15px;border-right:1px solid #fff}.footer .footer-menu p:last-child{border:none}.footer .footer-social{position:relative;margin-top:15px}.footer .footer-social a{display:inline-block}.footer .footer-social a i{margin-right:15px;font-size:20px;color:#fff;transition:.3s}.footer .footer-social a:last-child i{margin:0}.footer .footer-social a:hover i{color:#414141}.footer .copyright{position:relative;text-align:center;margin-top:30px;padding-top:25px;padding-bottom:25px}.footer .copyright::before{position:absolute;content:"";width:50%;height:1px;top:0;left:25%;background:rgb(256 256 256 / .2)}.footer .copyright p{margin:0;color:#fff}.footer .copyright .col-md-6:last-child p{text-align:right}.footer .copyright p a{color:#fff;font-weight:600}.footer .copyright p a:hover{color:#414141}@media (max-width:575.98px){.footer .footer-info h2{margin-bottom:20px;font-size:20px;font-weight:600}.footer .footer-info h3{margin-bottom:20px;font-size:16px}.footer .footer-menu p{font-size:16px;line-height:16px;padding:0 5px}}
-        </style>
-    </head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Soham Paul",
+  "jobTitle": "Software Developer",
+  "email": "mailto:paulsoham8@gmail.com",
+  "telephone": "+91-8016157553",
+  "url": "https://paul-soham.github.io",
+  "image": "https://paul-soham.github.io/soham-paul.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "600/6 Kankpul",
+    "addressLocality": "Ashoknagar",
+    "addressRegion": "West Bengal",
+    "addressCountry": "IN"
+  },
+  "knowsLanguage": ["English", "Hindi", "Bengali"],
+  "knowsAbout": ["WordPress", "Shopify", "Liquid", "PHP", "MySQL", "API Integration", "Git"],
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "Techno Engineering College Banipur" },
+    { "@type": "CollegeOrUniversity", "name": "Kingston Polytechnic College" }
+  ],
+  "sameAs": ["https://paul-soham.github.io", "https://www.linkedin.com/in/paul-soham8/"]
+}
+</script>
 
-    <body data-spy="scroll" data-target=".navbar" data-offset="51">
-        <!-- Nav Bar Start -->
-        <div class="navbar navbar-expand-lg bg-light navbar-light">
-            <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">DevFolio</a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+<style>
+  /* ---------- Design tokens ---------- */
+  :root{
+    --ink-950:#0d1712;
+    --ink-900:#152218;
+    --ink-850:#1a2a1e;
+    --ink-800:#22362a;
+    --paper:#edeae1;
+    --muted:#a7bfae;
+    --tangerine:#ff8a3d;
+    --mint:#6fe3b4;
+    --lavender:#b9a6ff;
 
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto">
-                        <a href="#home" class="nav-item nav-link active">Home</a>
-                        <a href="#about" class="nav-item nav-link">About</a>
-                        <a href="#service" class="nav-item nav-link">Service</a>
-                        <a href="#experience" class="nav-item nav-link">Experience</a>
-                        <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
-                        <a href="#price" class="nav-item nav-link">Price</a>
-                        <a href="#review" class="nav-item nav-link">Review</a>
-                        <a href="#team" class="nav-item nav-link">Team</a>
-                        <a href="#blog" class="nav-item nav-link">Blog</a>
-                        <a href="#contact" class="nav-item nav-link">Contact</a>
-                    </div>
-                </div>
+    --font-display:'Space Grotesk', sans-serif;
+    --font-mono:'JetBrains Mono', monospace;
+    --font-body:'Inter', sans-serif;
+
+    --container:1080px;
+    --radius:14px;
+  }
+
+  *,*::before,*::after{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+  body{
+    margin:0;
+    background:var(--ink-950);
+    color:var(--paper);
+    font-family:var(--font-body);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{ max-width:100%; display:block; }
+  a{ color:inherit; }
+
+  ::selection{ background:var(--mint); color:var(--ink-950); }
+
+  a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible{
+    outline:2px solid var(--mint);
+    outline-offset:3px;
+    border-radius:4px;
+  }
+
+  .skip-link{
+    position:absolute; left:-999px; top:0;
+    background:var(--mint); color:var(--ink-950);
+    padding:.6em 1em; font-family:var(--font-mono); z-index:999;
+  }
+  .skip-link:focus{ left:1rem; top:1rem; }
+
+  .section{
+    max-width:var(--container);
+    margin:0 auto;
+    padding:5.5rem 1.5rem;
+  }
+  @media (max-width:640px){
+    .section{ padding:3.5rem 1.25rem; }
+  }
+
+  .eyebrow{
+    font-family:var(--font-mono);
+    font-size:.8rem;
+    letter-spacing:.04em;
+    color:var(--mint);
+    margin:0 0 .6rem;
+  }
+  .eyebrow::before{ content:"// "; color:var(--muted); }
+
+  h1,h2,h3{
+    font-family:var(--font-display);
+    font-weight:700;
+    margin:0;
+    letter-spacing:-0.01em;
+  }
+  h2{ font-size:clamp(1.6rem, 3vw, 2.3rem); margin-bottom:1.2rem; }
+
+  .reveal{
+    opacity:0;
+    transform:translateY(18px);
+    transition:opacity .6s ease, transform .6s ease;
+  }
+  .reveal.in-view{ opacity:1; transform:none; }
+
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior:auto; }
+    .reveal{ opacity:1; transform:none; transition:none; }
+    *{ animation-duration:.001ms !important; animation-iteration-count:1 !important; }
+  }
+
+  /* ---------- Top bar ---------- */
+  .topbar{
+    position:sticky; top:0; z-index:100;
+    background:rgba(13,23,18,.85);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--ink-800);
+  }
+  .topbar-inner{
+    max-width:var(--container);
+    margin:0 auto;
+    padding:.9rem 1.5rem;
+    display:flex; align-items:center; justify-content:space-between;
+    gap:1rem; flex-wrap:wrap;
+  }
+  .prompt{
+    font-family:var(--font-mono);
+    font-size:.85rem;
+    color:var(--muted);
+    white-space:nowrap;
+  }
+  .prompt strong{ color:var(--tangerine); font-weight:600; }
+  .cursor{
+    display:inline-block; width:.55em; height:1em; background:var(--mint);
+    margin-left:.15em; vertical-align:-.15em;
+    animation:blink 1s steps(1) infinite;
+  }
+  @keyframes blink{ 50%{ opacity:0; } }
+
+  .topbar-nav{
+    display:flex; gap:1.1rem; flex-wrap:wrap;
+    font-family:var(--font-mono); font-size:.82rem;
+  }
+  .topbar-nav a{
+    text-decoration:none; color:var(--muted);
+    padding:.3rem .2rem;
+    border-bottom:2px solid transparent;
+    transition:color .2s ease, border-color .2s ease;
+  }
+  .topbar-nav a:hover, .topbar-nav a.active{ color:var(--paper); border-color:var(--mint); }
+  .topbar-nav a.nav-cta{
+    color:var(--ink-950); background:var(--tangerine);
+    padding:.3rem .7rem; border-radius:999px; border-bottom:none;
+  }
+  .topbar-nav a.nav-cta:hover{ background:var(--mint); }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    position:relative;
+    overflow:hidden;
+    padding-top:4.5rem;
+  }
+  .blob{
+    position:absolute;
+    border-radius:50%;
+    filter:blur(70px);
+    opacity:.35;
+    z-index:0;
+    animation:drift 22s ease-in-out infinite;
+  }
+  .blob--a{ width:340px; height:340px; background:var(--mint); top:-60px; left:-80px; }
+  .blob--b{ width:280px; height:280px; background:var(--tangerine); top:120px; right:-60px; animation-duration:26s; animation-delay:-4s; }
+  .blob--c{ width:260px; height:260px; background:var(--lavender); bottom:-90px; left:35%; animation-duration:30s; animation-delay:-9s; }
+  @keyframes drift{
+    0%,100%{ transform:translate(0,0) scale(1); }
+    33%{ transform:translate(30px,-25px) scale(1.08); }
+    66%{ transform:translate(-25px,20px) scale(0.95); }
+  }
+  @media (prefers-reduced-motion: reduce){ .blob{ animation:none; } }
+
+  .hero-grid{
+    position:relative; z-index:1;
+    display:grid;
+    grid-template-columns:1.15fr .85fr;
+    gap:3rem;
+    align-items:center;
+  }
+  @media (max-width:860px){
+    .hero-grid{ grid-template-columns:1fr; }
+    .hero-visual{ order:-1; max-width:320px; margin:0 auto; }
+  }
+
+  .tag-label{
+    display:block;
+    font-family:var(--font-mono);
+    font-size:.72rem;
+    color:var(--muted);
+    letter-spacing:.02em;
+    margin-top:1.1rem;
+  }
+  .tag-label:first-of-type{ margin-top:0; }
+  .tag-label .lv{ color:var(--lavender); }
+  .tag-label .lb{ color:var(--tangerine); }
+
+  .hero-name{
+    font-size:clamp(2.4rem, 6vw, 4rem);
+    line-height:1.05;
+    margin-top:.3rem;
+  }
+  .hero-role{
+    font-family:var(--font-display);
+    font-weight:600;
+    font-size:clamp(1.1rem, 2.4vw, 1.5rem);
+    color:var(--mint);
+    margin-top:.5rem;
+  }
+  .hero-status{
+    font-family:var(--font-mono);
+    font-size:.95rem;
+    color:var(--muted);
+    margin-top:.6rem;
+  }
+
+  .hero-cta{ display:flex; gap:1rem; margin-top:2.2rem; flex-wrap:wrap; }
+  .btn{
+    font-family:var(--font-mono);
+    font-size:.88rem;
+    padding:.75rem 1.3rem;
+    border-radius:8px;
+    text-decoration:none;
+    border:1px solid transparent;
+    cursor:pointer;
+    transition:transform .15s ease, background .2s ease, border-color .2s ease;
+    display:inline-flex; align-items:center; gap:.5rem;
+  }
+  .btn:hover{ transform:translateY(-2px); }
+  .btn-primary{ background:var(--tangerine); color:var(--ink-950); font-weight:600; }
+  .btn-primary:hover{ background:var(--mint); }
+  .btn-secondary{ border-color:var(--ink-800); color:var(--paper); }
+  .btn-secondary:hover{ border-color:var(--mint); color:var(--mint); }
+
+  .hero-meta{
+    margin-top:2rem; display:flex; gap:1.6rem; flex-wrap:wrap;
+    font-family:var(--font-mono); font-size:.8rem; color:var(--muted);
+  }
+  .hero-meta strong{ color:var(--paper); }
+
+  /* browser-style photo frame */
+  .browser-frame{
+    perspective:900px;
+  }
+  .browser-window{
+    background:var(--ink-900);
+    border:1px solid var(--ink-800);
+    border-radius:var(--radius);
+    overflow:hidden;
+    transition:transform .25s ease;
+    box-shadow:0 30px 60px -20px rgba(0,0,0,.55);
+  }
+  .browser-bar{
+    display:flex; align-items:center; gap:.5rem;
+    padding:.6rem .8rem;
+    border-bottom:1px solid var(--ink-800);
+  }
+  .browser-dot{ width:9px; height:9px; border-radius:50%; }
+  .browser-dot:nth-child(1){ background:var(--tangerine); }
+  .browser-dot:nth-child(2){ background:var(--mint); }
+  .browser-dot:nth-child(3){ background:var(--lavender); }
+  .browser-url{
+    margin-left:.6rem;
+    font-family:var(--font-mono);
+    font-size:.72rem;
+    color:var(--muted);
+    text-decoration:none;
+    overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+  }
+  .browser-url:hover{ color:var(--mint); }
+  .browser-photo{ aspect-ratio:4/5; overflow:hidden; }
+  .browser-photo img{ width:100%; height:100%; object-fit:cover; }
+
+  /* ---------- About ---------- */
+  .about-grid{
+    display:grid;
+    grid-template-columns:1.4fr 1fr;
+    gap:3rem;
+  }
+  @media (max-width:760px){ .about-grid{ grid-template-columns:1fr; } }
+  .about-text p{ color:var(--paper); font-size:1.02rem; max-width:56ch; }
+  .about-text p.muted-line{ color:var(--muted); font-size:.92rem; margin-top:1.4rem; }
+
+  .about-stats{ display:grid; gap:1rem; align-content:start; }
+  .stat{
+    background:var(--ink-900);
+    border:1px solid var(--ink-800);
+    border-radius:var(--radius);
+    padding:1.1rem 1.3rem;
+  }
+  .stat .num{
+    font-family:var(--font-display); font-weight:700;
+    font-size:1.6rem; color:var(--mint);
+    display:block;
+  }
+  .stat .label{ font-family:var(--font-mono); font-size:.78rem; color:var(--muted); }
+
+  /* ---------- Skills ---------- */
+  .skills-groups{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:1.6rem;
+  }
+  @media (max-width:760px){ .skills-groups{ grid-template-columns:1fr; } }
+  .skill-group{
+    background:var(--ink-900);
+    border:1px solid var(--ink-800);
+    border-radius:var(--radius);
+    padding:1.4rem;
+  }
+  .skill-group-title{
+    font-family:var(--font-mono);
+    font-size:.85rem;
+    display:flex; align-items:center; gap:.5rem;
+    margin-bottom:1rem;
+    color:var(--paper);
+  }
+  .dot{ width:9px; height:9px; border-radius:50%; flex:0 0 auto; }
+  .dot--tangerine{ background:var(--tangerine); }
+  .dot--mint{ background:var(--mint); }
+  .dot--lavender{ background:var(--lavender); }
+
+  .skill-badges{ display:flex; flex-wrap:wrap; gap:.5rem; list-style:none; margin:0; padding:0; }
+  .skill-badge{
+    font-family:var(--font-mono); font-size:.78rem;
+    border:1px solid var(--ink-800);
+    border-radius:999px;
+    padding:.35rem .7rem;
+    transition:border-color .2s ease, transform .2s ease, color .2s ease;
+  }
+  .skill-group:nth-child(1) .skill-badge:hover{ border-color:var(--tangerine); color:var(--tangerine); transform:translateY(-2px); }
+  .skill-group:nth-child(2) .skill-badge:hover{ border-color:var(--mint); color:var(--mint); transform:translateY(-2px); }
+  .skill-group:nth-child(3) .skill-badge:hover{ border-color:var(--lavender); color:var(--lavender); transform:translateY(-2px); }
+
+  /* ---------- Work / git-log ---------- */
+  .commit-card{
+    position:relative;
+    padding-left:1.6rem;
+    border-left:2px solid var(--ink-800);
+    padding-bottom:2.4rem;
+  }
+  .commit-card:last-child{ padding-bottom:0; }
+  .commit-card::before{
+    content:"";
+    position:absolute;
+    left:-7px; top:2px;
+    width:12px; height:12px;
+    border-radius:50%;
+    background:var(--ink-950);
+    border:2px solid var(--mint);
+  }
+  .commit-head{
+    display:flex; align-items:baseline; gap:.7rem; flex-wrap:wrap;
+    font-family:var(--font-mono); font-size:.78rem; color:var(--muted);
+  }
+  .commit-hash{ color:var(--lavender); }
+  .commit-badge{
+    background:var(--mint); color:var(--ink-950);
+    font-weight:600; padding:.1rem .5rem; border-radius:4px;
+    font-size:.7rem;
+  }
+  .commit-title{
+    font-family:var(--font-display); font-weight:600;
+    font-size:1.15rem; margin-top:.4rem; color:var(--paper);
+  }
+  .commit-title span{ color:var(--tangerine); }
+  .commit-body{ list-style:none; margin:.9rem 0 0; padding:0; }
+  .commit-body li{
+    font-family:var(--font-mono); font-size:.86rem;
+    color:var(--muted);
+    padding-left:1.3rem; position:relative; margin-bottom:.5rem;
+  }
+  .commit-body li::before{
+    content:"+"; position:absolute; left:0; color:var(--mint); font-weight:700;
+  }
+
+  /* ---------- Education ---------- */
+  .edu-list{ display:grid; gap:1rem; }
+  .edu-item{
+    display:flex; justify-content:space-between; align-items:center; gap:1rem;
+    background:var(--ink-900);
+    border:1px solid var(--ink-800);
+    border-radius:var(--radius);
+    padding:1.1rem 1.4rem;
+    flex-wrap:wrap;
+  }
+  .edu-item h3{ font-size:1rem; font-family:var(--font-display); }
+  .edu-item p{ margin:.25rem 0 0; color:var(--muted); font-size:.88rem; }
+  .edu-score{
+    font-family:var(--font-mono); font-size:.8rem;
+    color:var(--mint); border:1px solid var(--ink-800); padding:.3rem .7rem; border-radius:999px;
+    white-space:nowrap;
+  }
+
+  /* ---------- Contact ---------- */
+  .contact-grid{
+    display:grid;
+    grid-template-columns:1.1fr .9fr;
+    gap:2.5rem;
+  }
+  @media (max-width:820px){ .contact-grid{ grid-template-columns:1fr; } }
+
+  .terminal-card{
+    background:var(--ink-900);
+    border:1px solid var(--ink-800);
+    border-radius:var(--radius);
+    overflow:hidden;
+  }
+  .terminal-bar{
+    display:flex; gap:.5rem; align-items:center;
+    padding:.6rem .8rem; border-bottom:1px solid var(--ink-800);
+  }
+  .terminal-body{ padding:1.4rem; }
+  .terminal-line{
+    font-family:var(--font-mono); font-size:.8rem; color:var(--muted); margin-bottom:1rem;
+  }
+  .terminal-line .flag{ color:var(--lavender); }
+
+  .field{ margin-bottom:1rem; }
+  .field label{
+    display:block; font-family:var(--font-mono); font-size:.75rem;
+    color:var(--tangerine); margin-bottom:.35rem;
+  }
+  .field input, .field textarea{
+    width:100%;
+    background:var(--ink-950);
+    border:1px solid var(--ink-800);
+    border-radius:8px;
+    padding:.65rem .8rem;
+    color:var(--paper);
+    font-family:var(--font-mono);
+    font-size:.85rem;
+    resize:vertical;
+  }
+  .field input:focus, .field textarea:focus{ border-color:var(--mint); }
+  .contact-status{
+    font-family:var(--font-mono); font-size:.8rem; color:var(--mint);
+    margin-top:.4rem; min-height:1.2em; opacity:0; transition:opacity .3s ease;
+  }
+  .contact-status.is-visible{ opacity:1; }
+
+  .contact-cards{ display:grid; gap:1rem; align-content:start; }
+  .contact-card{
+    background:var(--ink-900);
+    border:1px solid var(--ink-800);
+    border-radius:var(--radius);
+    padding:1rem 1.2rem;
+    display:flex; justify-content:space-between; align-items:center; gap:1rem;
+  }
+  .contact-card .k{ font-family:var(--font-mono); font-size:.72rem; color:var(--muted); display:block; }
+  .contact-card .v{ font-family:var(--font-display); font-weight:600; font-size:.95rem; word-break:break-word; }
+  .contact-card a.v{ text-decoration:none; }
+  .contact-card a.v:hover{ color:var(--mint); }
+  .copy-email{
+    font-family:var(--font-mono); font-size:.72rem;
+    background:none; border:1px solid var(--ink-800); color:var(--muted);
+    border-radius:6px; padding:.3rem .55rem; cursor:pointer; flex:0 0 auto;
+  }
+  .copy-email:hover{ border-color:var(--mint); color:var(--mint); }
+
+  /* ---------- Footer ---------- */
+  footer{
+    border-top:1px solid var(--ink-800);
+    padding:2.2rem 1.5rem;
+    text-align:center;
+  }
+  .footer-prompt{
+    font-family:var(--font-mono); font-size:.8rem; color:var(--muted);
+  }
+  .footer-prompt strong{ color:var(--tangerine); }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <span class="prompt"><strong>soham@paul</strong>:~$<span class="cursor" aria-hidden="true"></span></span>
+    <nav class="topbar-nav" aria-label="Primary">
+      <a href="#about">--about</a>
+      <a href="#skills">--skills</a>
+      <a href="#work">--work</a>
+      <a href="#education">--education</a>
+      <a href="#contact" class="nav-cta">--contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero section" aria-label="Introduction">
+    <span class="blob blob--a" aria-hidden="true"></span>
+    <span class="blob blob--b" aria-hidden="true"></span>
+    <span class="blob blob--c" aria-hidden="true"></span>
+
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <span class="tag-label">{{ <span class="lv">developer</span>.name }}</span>
+        <h1 class="hero-name" data-scramble>Soham Paul</h1>
+
+        <span class="tag-label">{{ <span class="lv">developer</span>.role }}</span>
+        <p class="hero-role" data-scramble>Software Developer — WordPress &amp; Shopify Specialist</p>
+
+        <span class="tag-label">{{ <span class="lv">developer</span>.status }}</span>
+        <p class="hero-status" data-scramble>Available for freelance &amp; full-time roles</p>
+
+        <div class="hero-cta">
+          <a href="#work" class="btn btn-primary">See my work</a>
+          <a href="#contact" class="btn btn-secondary">Say hello</a>
+        </div>
+
+        <div class="hero-meta">
+          <span><strong>5+ yrs</strong> building for the web</span>
+          <span>📍 Ashoknagar, West Bengal, India</span>
+        </div>
+      </div>
+
+      <div class="hero-visual browser-frame">
+        <div class="browser-window">
+          <div class="browser-bar">
+            <span class="browser-dot" aria-hidden="true"></span>
+            <span class="browser-dot" aria-hidden="true"></span>
+            <span class="browser-dot" aria-hidden="true"></span>
+            <a class="browser-url" href="https://paul-soham.github.io" target="_blank" rel="noopener">paul-soham.github.io</a>
+          </div>
+          <div class="browser-photo">
+            <img src="https://paul-soham.github.io/soham-paul.png" alt="Portrait of Soham Paul, Software Developer" width="480" height="600" loading="eager">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about" aria-label="About">
+    <p class="eyebrow">about</p>
+    <h2 class="reveal">Building reliable web experiences, end to end</h2>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I'm a software developer based in West Bengal, India, focused on WordPress and Shopify development. I like taking a project from a rough idea to a working, well-tested product — writing clean PHP and Liquid, wiring up APIs, and fixing the tricky bugs nobody else wants to touch.</p>
+        <p>I care about shipping things that actually work, and about being straightforward to build with — clear updates, realistic timelines, and code the next developer can actually read.</p>
+        <p class="muted-line">Off the clock: cricket, current affairs, and a good playlist.</p>
+      </div>
+      <div class="about-stats">
+        <div class="stat reveal">
+          <span class="num">3</span>
+          <span class="label">companies shipped with since 2021</span>
+        </div>
+        <div class="stat reveal">
+          <span class="num">EN · HI · BN</span>
+          <span class="label">English, Hindi &amp; Bengali</span>
+        </div>
+        <div class="stat reveal">
+          <span class="num">WP + Shopify</span>
+          <span class="label">core platforms of choice</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section skills" aria-label="Skills">
+    <p class="eyebrow">skills</p>
+    <h2 class="reveal">What I bring to a project</h2>
+    <div class="skills-groups">
+      <div class="skill-group reveal">
+        <p class="skill-group-title"><span class="dot dot--tangerine"></span> Platforms</p>
+        <ul class="skill-badges">
+          <li class="skill-badge">WordPress</li>
+          <li class="skill-badge">Shopify</li>
+        </ul>
+      </div>
+      <div class="skill-group reveal">
+        <p class="skill-group-title"><span class="dot dot--mint"></span> Engineering</p>
+        <ul class="skill-badges">
+          <li class="skill-badge">PHP</li>
+          <li class="skill-badge">MySQL</li>
+          <li class="skill-badge">API Integration</li>
+          <li class="skill-badge">Git Proficiency</li>
+        </ul>
+      </div>
+      <div class="skill-group reveal">
+        <p class="skill-group-title"><span class="dot dot--lavender"></span> Collaboration</p>
+        <ul class="skill-badges">
+          <li class="skill-badge">Project Management</li>
+          <li class="skill-badge">Teamwork</li>
+          <li class="skill-badge">Time Management</li>
+          <li class="skill-badge">Leadership</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work" class="section work" aria-label="Work experience">
+    <p class="eyebrow">experience</p>
+    <h2 class="reveal">Where I've shipped code</h2>
+
+    <article class="commit-card reveal">
+      <div class="commit-head">
+        <span class="commit-hash">f3a9c2d</span>
+        <span>2024 — Present</span>
+        <span class="commit-badge">HEAD</span>
+      </div>
+      <h3 class="commit-title">Software Developer <span>@ WebArt Technology Pvt Ltd</span></h3>
+      <ul class="commit-body">
+        <li>Collaborate with cross-functional teams to ship high-quality WordPress products on tight deadlines</li>
+        <li>Lead day-to-day development and support for the WordPress team</li>
+        <li>Build and extend Shopify themes, writing custom Liquid to match design and business requirements</li>
+        <li>Develop and integrate APIs, including WebSocket-based plugins for real-time features</li>
+        <li>Build high-quality custom themes from the ground up</li>
+      </ul>
+    </article>
+
+    <article class="commit-card reveal">
+      <div class="commit-head">
+        <span class="commit-hash">7b1e408</span>
+        <span>2022 — 2024</span>
+      </div>
+      <h3 class="commit-title">Software Developer <span>@ Brainium Information Technologies Pvt Ltd</span></h3>
+      <ul class="commit-body">
+        <li>Worked full-time as a dedicated Shopify developer on a single client project</li>
+        <li>Provided ongoing development and support for WordPress sites</li>
+      </ul>
+    </article>
+
+    <article class="commit-card reveal">
+      <div class="commit-head">
+        <span class="commit-hash">2a08e51</span>
+        <span>2021 — 2022</span>
+      </div>
+      <h3 class="commit-title">Web Developer <span>@ Aotwo Web &amp; Technology Pvt Ltd</span></h3>
+      <ul class="commit-body">
+        <li>Started here as a junior developer, learning the fundamentals of the role</li>
+        <li>Grew into independently building stand-alone projects</li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section education" aria-label="Education">
+    <p class="eyebrow">education</p>
+    <h2 class="reveal">Academic background</h2>
+    <div class="edu-list">
+      <div class="edu-item reveal">
+        <div>
+          <h3>Bachelor of Technology</h3>
+          <p>Techno Engineering College Banipur · 2018 – 2021</p>
+        </div>
+        <span class="edu-score">GPA 8.4 / 10</span>
+      </div>
+      <div class="edu-item reveal">
+        <div>
+          <h3>Diploma in Engineering</h3>
+          <p>Kingston Polytechnic College · 2015 – 2018</p>
+        </div>
+        <span class="edu-score">GPA 8.3 / 10</span>
+      </div>
+      <div class="edu-item reveal">
+        <div>
+          <h3>Madhyamik (Secondary)</h3>
+          <p>Habra High School · 2005 – 2012</p>
+        </div>
+        <span class="edu-score">64%</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact" aria-label="Contact">
+    <p class="eyebrow">contact</p>
+    <h2 class="reveal">Let's build something</h2>
+
+    <div class="contact-grid">
+      <div class="terminal-card reveal">
+        <div class="terminal-bar">
+          <span class="browser-dot" aria-hidden="true"></span>
+          <span class="browser-dot" aria-hidden="true"></span>
+          <span class="browser-dot" aria-hidden="true"></span>
+        </div>
+        <div class="terminal-body">
+          <p class="terminal-line">$ curl -X POST https://soham.dev/contact <span class="flag">\</span><br>
+            <span class="flag">-d</span> name="..." <span class="flag">-d</span> email="..." <span class="flag">-d</span> message="..."</p>
+
+          <form class="contact-form" novalidate>
+            <div class="field">
+              <label for="name">-d name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required>
             </div>
-        </div>
-        <!-- Nav Bar End -->
-
-
-        <!-- Hero Start -->
-        <div class="hero" id="home">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-sm-12 col-md-6">
-                        <div class="hero-content">
-                            <div class="hero-text">
-                                <p>I'm</p>
-                                <h1>Paul Soham</h1>
-                                <h2></h2>
-                                <div class="typed-text">Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer</div>
-                            </div>
-                            <div class="hero-btn">
-                                <a class="btn" href="">Hire Me</a>
-                                <a class="btn" href="">Contact Me</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 d-none d-md-block">
-                        <div class="hero-image">
-                            <img src="https://paul-soham.github.io/soham-paul.png" alt="Hero Image">
-                        </div>
-                    </div>
-                </div>
+            <div class="field">
+              <label for="email">-d email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required>
             </div>
+            <div class="field">
+              <label for="message">-d message</label>
+              <textarea id="message" name="message" rows="4" placeholder="What are you building?" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">$ send request</button>
+            <p class="contact-status" role="status" aria-live="polite"></p>
+          </form>
         </div>
-        <!-- Hero End -->
+      </div>
 
+      <div class="contact-cards">
+        <div class="contact-card reveal">
+          <div>
+            <span class="k">email</span>
+            <a class="v" href="mailto:paulsoham8@gmail.com">paulsoham8@gmail.com</a>
+          </div>
+          <button class="copy-email" type="button" aria-label="Copy email address">copy</button>
+        </div>
+        <div class="contact-card reveal">
+          <div>
+            <span class="k">phone</span>
+            <a class="v" href="tel:+918016157553">+91 80161 57553</a>
+          </div>
+        </div>
+        <div class="contact-card reveal">
+          <div>
+            <span class="k">location</span>
+            <span class="v">Ashoknagar, West Bengal, India</span>
+          </div>
+        </div>
+        <div class="contact-card reveal">
+          <div>
+            <span class="k">website</span>
+            <a class="v" href="https://paul-soham.github.io" target="_blank" rel="noopener">paul-soham.github.io</a>
+          </div>
+        </div>
+        <div class="contact-card reveal">
+          <div>
+            <span class="k">linkedin</span>
+            <a class="v" href="https://www.linkedin.com/in/paul-soham8/" target="_blank" rel="noopener">in/paul-soham8</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <!-- About Start -->
-        <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="about-img">
-                            <img src="img/about.jpg" alt="Image">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="about-content">
-                            <div class="section-header text-left">
-                                <p>Learn About Me</p>
-                                <h2>10 Years Experience</h2>
-                            </div>
-                            <div class="about-text">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida
-                                </p>
-                            </div>
-                            <div class="skills">
-                                <div class="skill-name">
-                                    <p>Web Design</p><p>85%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Web Development</p><p>95%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Apps Design</p><p>90%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Apps Development</p><p>85%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <a class="btn" href="">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
-        
-        
-        <!-- Service Start -->
-        <div class="service" id="service">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>What I do</p>
-                    <h2>Awesome Quality Services</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fa fa-laptop"></i>
-                            </div>
-                            <div class="service-text">
-                                <h3>Web Design</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fa fa-laptop-code"></i>
-                            </div>
-                            <div class="service-text">
-                                <h3>Web Development</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fab fa-android"></i>
-                            </div>
-                            <div class="service-text">
-                                <h3>Apps Design</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fab fa-apple"></i>
-                            </div>
-                            <div class="service-text">
-                                <h3>Apps Development</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Service End -->
-        
-        
-         <!-- Experience Start -->
-        <div class="experience" id="experience">
-            <div class="container">
-                <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>My Resume</p>
-                    <h2>Working Experience</h2>
-                </header>
-                <div class="timeline">
-                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
-                        <div class="timeline-text">
-                            <div class="timeline-date">2045 - 2050</div>
-                            <h2>Web Developer</h2>
-                            <h4>Soft Agency, San Francisco, CA</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
-                        <div class="timeline-text">
-                            <div class="timeline-date">2045 - 2050</div>
-                            <h2>Web Developer</h2>
-                            <h4>Soft Agency, San Francisco, CA</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
-                        <div class="timeline-text">
-                            <div class="timeline-date">2045 - 2050</div>
-                            <h2>Web Developer</h2>
-                            <h4>Soft Agency, San Francisco, CA</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
-                        <div class="timeline-text">
-                            <div class="timeline-date">2045 - 2050</div>
-                            <h2>Web Developer</h2>
-                            <h4>Soft Agency, San Francisco, CA</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
-                        <div class="timeline-text">
-                            <div class="timeline-date">2045 - 2050</div>
-                            <h2>Web Developer</h2>
-                            <h4>Soft Agency, San Francisco, CA</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
-                        <div class="timeline-text">
-                            <div class="timeline-date">2045 - 2050</div>
-                            <h2>Web Developer</h2>
-                            <h4>Soft Agency, San Francisco, CA</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Job Experience End -->
-        
-        
-        <!-- Banner Start -->
-        <div class="banner wow zoomIn" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Reasonable Price</p>
-                    <h2>Get A <span>Special</span> Price</h2>
-                </div>
-                <div class="container banner-text">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. 
-                    </p>
-                    <a class="btn">Pricing Plan</a>
-                </div>
-            </div>
-        </div>
-        <!-- Banner End -->
+</main>
 
+<footer>
+  <p class="footer-prompt"><strong>soham@paul</strong>:~$ logout — © <span id="year"></span> Soham Paul. Built with HTML, CSS &amp; a bit of Liquid.</p>
+</footer>
 
-        <!-- Portfolio Start -->
-        <div class="portfolio" id="portfolio">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>My Portfolio</p>
-                    <h2>My Excellent Portfolio</h2>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <ul id="portfolio-filter">
-                            <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-1">Web Design</li>
-                            <li data-filter=".filter-2">Mobile Apps</li>
-                            <li data-filter=".filter-3">Game Dev</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row portfolio-container">
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-1.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>eCommerce Website</h3>
-                                <a class="btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-2.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>Product Landing Page</h3>
-                                <a class="btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-3.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>JavaScript quiz game</h3>
-                                <a class="btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-4.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>JavaScript drawing</h3>
-                                <a class="btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-5.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>Social Mobile Apps</h3>
-                                <a class="btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="1s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-6.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>Company Website</h3>
-                                <a class="btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio End -->
-        
-        
-        <!-- Banner Start -->
-        <div class="banner wow zoomIn" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Awesome Discount</p>
-                    <h2>Get <span>30%</span> Discount</h2>
-                </div>
-                <div class="container banner-text">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. 
-                    </p>
-                    <a class="btn">Order Now</a>
-                </div>
-            </div>
-        </div>
-        <!-- Banner End -->
-        
-        
-        <!-- Price Start -->
-        <div class="price" id="price">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>Pricing Plan</p>
-                    <h2>Affordable Price</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="price-item">
-                            <div class="price-header">
-                                <div class="price-title">
-                                    <h2>Basic</h2>
-                                </div>
-                                <div class="price-prices">
-                                    <h2><small>$</small>49<span>/ mo</span></h2>
-                                </div>
-                            </div>
-                            <div class="price-body">
-                                <div class="price-description">
-                                    <ul>
-                                        <li>Bootstrap 4</li>
-                                        <li>Font Awesome 5</li>
-                                        <li>Responsive Design</li>
-                                        <li>Browser Compatibility</li>
-                                        <li>Easy To Use</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="price-footer">
-                                <div class="price-action">
-                                    <a class="btn" href="">Order Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="price-item featured-item">
-                            <div class="price-header">
-                                <div class="price-title">
-                                    <h2>Standard</h2>
-                                </div>
-                                <div class="price-prices">
-                                    <h2><small>$</small>99<span>/ mo</span></h2>
-                                </div>
-                            </div>
-                            <div class="price-body">
-                                <div class="price-description">
-                                    <ul>
-                                        <li>Bootstrap 4</li>
-                                        <li>Font Awesome 5</li>
-                                        <li>Responsive Design</li>
-                                        <li>Browser Compatibility</li>
-                                        <li>Easy To Use</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="price-footer">
-                                <div class="price-action">
-                                    <a class="btn" href="">Order Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="price-item">
-                            <div class="price-header">
-                                <div class="price-title">
-                                    <h2>Premium</h2>
-                                </div>
-                                <div class="price-prices">
-                                    <h2><small>$</small>149<span>/ mo</span></h2>
-                                </div>
-                            </div>
-                            <div class="price-body">
-                                <div class="price-description">
-                                    <ul>
-                                        <li>Bootstrap 4</li>
-                                        <li>Font Awesome 5</li>
-                                        <li>Responsive Design</li>
-                                        <li>Browser Compatibility</li>
-                                        <li>Easy To Use</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="price-footer">
-                                <div class="price-action">
-                                    <a class="btn" href="">Order Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Price End -->
-        
-        
-        <!-- Testimonial Start -->
-        <div class="testimonial wow fadeInUp" data-wow-delay="0.1s" id="review">
-            <div class="container">
-                <div class="testimonial-icon">
-                    <i class="fa fa-quote-left"></i>
-                </div>
-                <div class="owl-carousel testimonials-carousel">
-                    <div class="testimonial-item">
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-1.jpg" alt="Image">
-                        </div>
-                        <div class="testimonial-text">
-                            <p>
-                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum. Lorem ipsum dolor sit amet consec adipis elit.
-                            </p>
-                            <h3>Customer Name</h3>
-                            <h4>Profession</h4>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-2.jpg" alt="Image">
-                        </div>
-                        <div class="testimonial-text">
-                            <p>
-                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum. Lorem ipsum dolor sit amet consec adipis elit.
-                            </p>
-                            <h3>Customer Name</h3>
-                            <h4>Profession</h4>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-3.jpg" alt="Image">
-                        </div>
-                        <div class="testimonial-text">
-                            <p>
-                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum. Lorem ipsum dolor sit amet consec adipis elit.
-                            </p>
-                            <h3>Customer Name</h3>
-                            <h4>Profession</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Testimonial End -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+(function(){
+  "use strict";
 
+  /* ---------- EmailJS config ----------
+     1. Create a free account at https://www.emailjs.com
+     2. Add an "Email Service" and connect your Gmail (paulsoham8@gmail.com) via OAuth
+     3. Create an "Email Template" with variables: from_name, from_email, message
+     4. Copy your Public Key, Service ID and Template ID from the EmailJS dashboard
+        and paste them below. Until you do, the form falls back to opening
+        the visitor's own mail client instead (still fully functional). */
+  var EMAILJS_PUBLIC_KEY  = 'CpD1CVIrVYjeyaINU';
+  var EMAILJS_SERVICE_ID  = 'service_vzo0kq4';
+  var EMAILJS_TEMPLATE_ID = 'template_bjb6nb6';
+  var emailjsReady = EMAILJS_PUBLIC_KEY.indexOf('YOUR_') !== 0 &&
+                      EMAILJS_SERVICE_ID.indexOf('YOUR_') !== 0 &&
+                      EMAILJS_TEMPLATE_ID.indexOf('YOUR_') !== 0;
+  if (emailjsReady && window.emailjs){
+    emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
+  }
 
-        <!-- Team Start -->
-        <div class="team" id="team">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>My Team</p>
-                    <h2>Expert Team Members</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-1.jpg" alt="Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Mollie Ross</h2>
-                                <h4>Web Designer</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
-                                </p>
-                                <div class="team-social">
-                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-2.jpg" alt="Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Dylan Adams</h2>
-                                <h4>Web Developer</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
-                                </p>
-                                <div class="team-social">
-                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-3.jpg" alt="Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Jennifer Page</h2>
-                                <h4>Apps Designer</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
-                                </p>
-                                <div class="team-social">
-                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-4.jpg" alt="Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Josh Dunn</h2>
-                                <h4>Apps Developer</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
-                                </p>
-                                <div class="team-social">
-                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Team End -->
-        
-        
-        <!-- Contact Start -->
-        <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-4"></div>
-                        <div class="col-md-8">
-                            <div class="contact-form">
-                                <div id="success"></div>
-                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div>
-                                        <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Contact End -->
+  var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+  /* Footer year */
+  var yearEl = document.getElementById('year');
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-        <!-- Blog Start -->
-        <div class="blog" id="blog">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>From Blog</p>
-                    <h2>Latest Articles</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="blog-img">
-                                <img src="img/blog-1.jpg" alt="Blog">
-                            </div>
-                            <div class="blog-text">
-                                <h2>Lorem ipsum dolor sit amet</h2>
-                                <div class="blog-meta">
-                                    <p><i class="far fa-user"></i>Admin</p>
-                                    <p><i class="far fa-list-alt"></i>Web Design</p>
-                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
-                                    <p><i class="far fa-comments"></i>5</p>
-                                </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Nullam commodo mattis mi. Nullam eu erat lectus. Proin viverra risus vitae luctus. Proin ut ante, vitae sapien. Fusce sem ac erat rhoncus, ornare mattis nisl massa et eros vitae pulvin
-                                </p>
-                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="blog-img">
-                                <img src="img/blog-2.jpg" alt="Blog">
-                            </div>
-                            <div class="blog-text">
-                                <h2>Lorem ipsum dolor sit amet</h2>
-                                <div class="blog-meta">
-                                    <p><i class="far fa-user"></i>Admin</p>
-                                    <p><i class="far fa-list-alt"></i>Apps Design</p>
-                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
-                                    <p><i class="far fa-comments"></i>10</p>
-                                </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Nullam commodo mattis mi. Nullam eu erat lectus. Proin viverra risus vitae luctus. Proin ut ante, vitae sapien. Fusce sem ac erat rhoncus, ornare mattis nisl massa et eros vitae pulvin
-                                </p>
-                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Blog End -->
+  /* Scramble-reveal effect for hero lines (progressive enhancement —
+     real text already lives in the markup for SEO / no-JS users) */
+  function scrambleReveal(el, delay){
+    var finalText = el.textContent;
+    if (prefersReducedMotion) return;
+    var pool = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz{}.-_';
+    var steps = 16;
+    var frame = 0;
 
+    setTimeout(function(){
+      var timer = setInterval(function(){
+        frame++;
+        var revealCount = Math.floor((frame / steps) * finalText.length);
+        var out = '';
+        for (var i = 0; i < finalText.length; i++){
+          if (i < revealCount || finalText[i] === ' ') {
+            out += finalText[i];
+          } else {
+            out += pool[Math.floor(Math.random() * pool.length)];
+          }
+        }
+        el.textContent = out;
+        if (frame >= steps){
+          clearInterval(timer);
+          el.textContent = finalText;
+        }
+      }, 45);
+    }, delay);
+  }
 
-        <!-- Footer Start -->
-        <div class="footer wow fadeIn" data-wow-delay="0.3s">
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="footer-info">
-                        <h2>Paul Soham</h2>
-                        <h3>123 Street, New York, USA</h3>
-                        <div class="footer-menu">
-                            <p>+012 345 67890</p>
-                            <p>info@example.com</p>
-                        </div>
-                        <div class="footer-social">
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-youtube"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                            <a href=""><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="container copyright">
-                    <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved | Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
-                </div>
-            </div>
-        </div>
-        <!-- Footer End -->
-        
-        
-        <!-- Back to top button -->
-        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
-        
-        
-        <!-- Pre Loader -->
-        <div id="loader" class="show">
-            <div class="loader"></div>
-        </div>
+  var scrambleTargets = document.querySelectorAll('[data-scramble]');
+  scrambleTargets.forEach(function(el, i){
+    scrambleReveal(el, 150 + i * 500);
+  });
 
-        
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/typed/typed.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/isotope/isotope.pkgd.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
-        
-        <script type="text/javascript">
-            (function($){"use strict";var loader=function(){setTimeout(function(){if($('#loader').length>0){$('#loader').removeClass('show')}},1)};loader();new WOW().init();$(window).scroll(function(){if($(this).scrollTop()>200){$('.back-to-top').fadeIn('slow')}else{$('.back-to-top').fadeOut('slow')}});$('.back-to-top').click(function(){$('html, body').animate({scrollTop:0},1500,'easeInOutExpo');return!1});$(window).scroll(function(){if($(this).scrollTop()>0){$('.navbar').addClass('nav-sticky')}else{$('.navbar').removeClass('nav-sticky')}});$(".navbar-nav a").on('click',function(event){if(this.hash!==""){event.preventDefault();$('html, body').animate({scrollTop:$(this.hash).offset().top-45},1500,'easeInOutExpo');if($(this).parents('.navbar-nav').length){$('.navbar-nav .active').removeClass('active');$(this).closest('a').addClass('active')}}});if($('.hero .hero-text h2').length==1){var typed_strings=$('.hero .hero-text .typed-text').text();var typed=new Typed('.hero .hero-text h2',{strings:typed_strings.split(', '),typeSpeed:100,backSpeed:20,smartBackspace:!1,loop:!0})}
-$('.skills').waypoint(function(){$('.progress .progress-bar').each(function(){$(this).css("width",$(this).attr("aria-valuenow")+'%')})},{offset:'80%'});$(".testimonials-carousel").owlCarousel({center:!0,autoplay:!0,dots:!0,loop:!0,responsive:{0:{items:1}}});var portfolioIsotope=$('.portfolio-container').isotope({itemSelector:'.portfolio-item',layoutMode:'fitRows'});$('#portfolio-filter li').on('click',function(){$("#portfolio-filter li").removeClass('filter-active');$(this).addClass('filter-active');portfolioIsotope.isotope({filter:$(this).data('filter')})})})(jQuery)
-        </script>
-    </body>
+  /* Scroll reveal */
+  var revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window && !prefersReducedMotion){
+    var revealObserver = new IntersectionObserver(function(entries, obs){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting){
+          entry.target.classList.add('in-view');
+          obs.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    revealEls.forEach(function(el){ revealObserver.observe(el); });
+  } else {
+    revealEls.forEach(function(el){ el.classList.add('in-view'); });
+  }
+
+  /* Active nav link on scroll */
+  var sections = document.querySelectorAll('main section[id]');
+  var navLinks = document.querySelectorAll('.topbar-nav a');
+  if ('IntersectionObserver' in window && sections.length){
+    var navObserver = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting){
+          navLinks.forEach(function(l){ l.classList.remove('active'); });
+          var active = document.querySelector('.topbar-nav a[href="#' + entry.target.id + '"]');
+          if (active) active.classList.add('active');
+        }
+      });
+    }, { rootMargin: '-40% 0px -50% 0px', threshold: 0 });
+    sections.forEach(function(s){ navObserver.observe(s); });
+  }
+
+  /* Subtle tilt on the browser-window photo frame */
+  var frame = document.querySelector('.browser-window');
+  var frameWrap = document.querySelector('.browser-frame');
+  if (frame && frameWrap && !prefersReducedMotion && window.matchMedia('(hover: hover)').matches){
+    frameWrap.addEventListener('mousemove', function(e){
+      var rect = frameWrap.getBoundingClientRect();
+      var x = (e.clientX - rect.left) / rect.width - 0.5;
+      var y = (e.clientY - rect.top) / rect.height - 0.5;
+      frame.style.transform = 'rotateY(' + (x * 8) + 'deg) rotateX(' + (-y * 8) + 'deg)';
+    });
+    frameWrap.addEventListener('mouseleave', function(){
+      frame.style.transform = '';
+    });
+  }
+
+  /* Copy email button */
+  var copyBtn = document.querySelector('.copy-email');
+  if (copyBtn){
+    copyBtn.addEventListener('click', function(){
+      var email = 'paulsoham8@gmail.com';
+      var done = function(){
+        copyBtn.textContent = 'copied!';
+        setTimeout(function(){ copyBtn.textContent = 'copy'; }, 1600);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(email).then(done).catch(function(){});
+      }
+    });
+  }
+
+  /* Contact form -> EmailJS (dynamic send) with mailto fallback */
+  var form = document.querySelector('.contact-form');
+  if (form){
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      var name = form.name.value.trim();
+      var email = form.email.value.trim();
+      var message = form.message.value.trim();
+      var status = form.querySelector('.contact-status');
+      var submitBtn = form.querySelector('button[type="submit"]');
+
+      if (!name || !email || !message){
+        if (status){
+          status.textContent = '> 400 Bad Request — please fill in every field';
+          status.classList.add('is-visible');
+        }
+        return;
+      }
+
+      if (emailjsReady && window.emailjs){
+        if (submitBtn){ submitBtn.disabled = true; }
+        if (status){
+          status.textContent = '> 202 Accepted — sending…';
+          status.classList.add('is-visible');
+        }
+        var reEnable = function(){ if (submitBtn){ submitBtn.disabled = false; } };
+        emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+          from_name: name,
+          from_email: email,
+          message: message
+        }).then(function(){
+          if (status){ status.textContent = '> 200 OK — message sent, thanks!'; }
+          form.reset();
+          reEnable();
+        }).catch(function(){
+          if (status){ status.textContent = '> 500 Internal Error — please email me directly instead'; }
+          reEnable();
+        });
+      } else {
+        var subject = encodeURIComponent('Portfolio contact from ' + name);
+        var body = encodeURIComponent(message + '\n\n— ' + name + ' (' + email + ')');
+        if (status){
+          status.textContent = '> 200 OK — opening your mail client…';
+          status.classList.add('is-visible');
+        }
+        window.location.href = 'mailto:paulsoham8@gmail.com?subject=' + subject + '&body=' + body;
+      }
+    });
+  }
+})();
+</script>
+</body>
 </html>
